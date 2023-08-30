@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset ="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking System</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href=" style.css">
+
+</head> 
+
+<body>
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+<a href="#" class="logo"><span>T</span>ravel</a>
+
+<nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#book">Book</a>
+    <a href="#package">Package</a>
+    <a href="#service">Service</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#review">Review</a>
+    <a href="#contact">Contact</a>
+
+</nav>
+
+<div class="icons">
+    <i class="fas fa-search" id="search-btn"></i>
+    
+    <i class="fas fa-user" id="login-btn"></i>
+</div>
+
+<form action="" class="search-bar-container"> 
+    <input type="search" id="search-bar" placeholder="search here.....">
+    <label for="search-bar" class="fas fa-search" ></label>
+    
+</form>
+</header>
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+   
+    <form action="">
+    <h3>Login</h3>
+    <input type="email" class="box" placeholder="Enter you Email">
+    <input type="email" class="box" placeholder="Enter you Password">
+    <input type="submit" value="login now" class="btn">
+    <input type="checkbox" id="remember">
+    <label for="remember">Remember Me</label>
+    <p>Forget Password? <a herf="#">Click Here</a></p>
+    <p>Don't have account? <a herf="#">Register Now</a></p>
+</form>
+    
+</div>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Adventure is worth it</h3> 
+        <p>Discover new places,make us your partner</p>
+        <a href="#" class="btn">Many more to go</a>
+    </div>
+        <div class="controls">
+           
+          
+          
+            <span class="vid-btn active" data-src=" /home/spg/Desktop/Travel/islands_-_2119 (540p).mp4"></span>
+          <span class="vid-btn" data-src="/home/spg/Desktop/Travel/sunset_-_15779 (1080p).mp4"></span>
+            <span class="vid-btn" data-src="/home/spg/Desktop/Travel/mountains_-_48873 (540p).mp4"></span>
+            <span class="vid-btn" data-src="/home/spg/Desktop/Travel/istockphoto-1455772765-640_adpp_is.mp4"></span>
+            <span class="vid-btn" data-src="/home/spg/Desktop/Travel/butterflies_-_56954 (540p).mp4"></span>
+
+        </div>
+<div class="video-container">
+    <video src="/home/spg/Desktop/Travel/islands_-_2119 (540p).mp4" width="800px"id="video-slider" loop autoplay muted></video>
+</div>
+
+
+</section>
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+<div class="row">
+    <div class="image">
+        <img src="/home/spg/Desktop/Travel/depositphotos_59918789-stock-illustration-book-now-label-or-price.jpg" alt="" width="400px" height="400px">
+    </div>
+
+    <form action="">
+        <div class="inputBox">
+            <h3>Where to</h3>
+            <input type="text" placeholder="Place name">
+
+
+    <form action="">
+        <div class="inputBox">
+            <h3>How many</h3>
+            <input type="number" placeholder="Number of members">
+
+        </div>
+        <div class="inputBox">
+            <h3>arrivals</h3>
+            <input type="date">
+        </div>
+
+        <div class="inputBox">
+            <h3>Leaving</h3>
+            <input type="date">
+            </div>
+            <input type="submit" class="'btn" value="Book Now">   
+        </form>
+
+</div>
+
+</section>
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="/home/spg/Desktop/Travel/images.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-market-alt"></i>Lucknow</h3>
+                <p>One of the best places to enjoy</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">Rs90.00 <span>Rs120.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/home/spg/Desktop/Travel/del.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-market-alt"></i>Delhi</h3>
+                <p>One of the best places to enjoy</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">Rs100.00 <span>Rs150.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/home/spg/Desktop/Travel/mum.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-market-alt"></i>Mumbai</h3>
+                <p>One of the best places to enjoy</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    
+                </div>
+                <div class="price">Rs110.00 <span>Rs160.00</span></div>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        
+    </div>
+    <div class="box">
+        <img src="/home/spg/Desktop/Travel/chomu-palace-hotel.jpg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-market-alt"></i>Jaipur</h3>
+            <p>One of the best places to enjoy</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                
+            </div>
+            <div class="price">Rs120.00 <span>Rs180.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+
+    </div>
+
+    <div class="box">
+        <img src="/home/spg/Desktop/Travel/images (1).jpeg" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-market-alt"></i>Goa</h3>
+            <p>One of the best places to enjoy</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                
+            </div>
+            <div class="price">Rs140.00 <span>Rs200.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="/home/spg/Desktop/Travel/77995849.cms" alt="">
+        <div class="content">
+            <h3><i class="fas fa-map-market-alt"></i>Agra</h3>
+            <p>One of the best places to enjoy</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                
+            </div>
+            <div class="price">Rs40.00 <span>Rs50.00</span></div>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </div>
+    </div>
+    
+</section>
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>S</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+
+
+    </h1>
+
+    <div class="box-container">
+    <div class="box">
+    <i class="fas fa-hotel"></i>
+    <h3>At low Prices</h3>
+    <p>feeling of home,View point</p>
+</div>
+    <div class="box">
+        <i class="fas fa-utensils"></i>
+        <h3>Food and Drinks</h3>
+        <p>Feels like homemade food</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>Safety Guide</h3>
+        <p>Adventure in every step you take</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>World Tour</h3>
+        <p>Excited for the trip</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>Fastest Travel</h3>
+        <p>Very close to your dream</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-hiking"></i>
+        <h3>Up the hills</h3>
+        <p>Adventure all over </p>
+    </div>
+</section>
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>G</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+        <div class="box-container">
+
+            <div class="box">
+            <img src="/home/spg/Desktop/Travel/p1.jpeg" alt="">
+            <div class="content">
+            <h3>Fall in love with this place</h3>
+            <p>Loving, peaceful place</p>
+            <a href="#" class="btn">For More</a>
+        </div>
+            </div>
+        <div class="box">
+            <img src="/home/spg/Desktop/Travel/p2.jpeg" alt="">
+            <div class="content">
+            <h3>Fall in love with this place</h3>
+            <p>Loving, peaceful place</p>
+            <a href="#" class="btn">For More</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="/home/spg/Desktop/Travel/p3.jpeg" alt="">
+        <div class="content">
+        <h3>Fall in love with this place</h3>
+        <p>Loving, peaceful place</p>
+        <a href="#" class="btn">For More</a>
+    </div>
+</div>
+<div class="box">
+    <img src="/home/spg/Desktop/Travel/p4.jpeg" alt="">
+    <div class="content">
+    <h3>Fall in love with this place</h3>
+    <p>Loving, peaceful place</p>
+    <a href="#" class="btn">For More</a>
+</div>
+</div>
+<div class="box">
+    <img src="/home/spg/Desktop/Travel/p5.jpeg" alt="">
+    <div class="content">
+    <h3>Fall in love with this place</h3>
+    <p>Loving, peaceful place</p>
+    <a href="#" class="btn">For More</a>
+</div>
+</div>
+<div class="box">
+    <img src="/home/spg/Desktop/Travel/p6.jpeg" alt="">
+    <div class="content">
+    <h3>Fall in love with this place</h3>
+    <p>Loving, peaceful place</p>
+    <a href="#" class="btn">For More</a>
+</div>
+</div>
+</section>
+<section class="review" id="review">
+
+    <h1 class="heading">
+    <span>r</span>
+    <span>e</span>
+    <span>v</span>
+    <span>i</span>
+    <span>e</span>
+    <span>w</span>
+
+    </h1>
+    <div class="review-slider">
+        <div class="wrapper">
+
+            <div class="slider">
+                <div class="box">
+                        <img src="/home/spg/Desktop/Travel/6960120-attractive-young-man.jpg" alt="">
+                        <h3>Ayush</h3>
+                        <p>Everyting was uptodate,Perfect, homely feeling</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="slider">
+                <div class="box">
+                    
+                        <img src="/home/spg/Desktop/Travel/305697937.jpg" alt="">
+                        <h3>Shyam</h3>
+                        <p>Everyting was uptodate,Perfect, homely feeling</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+            <div class="slider">
+                <div class="box">
+                    
+                        <img src="/home/spg/Desktop/Travel/images (2).jpeg" alt="">
+                        <h3>Shruti</h3>
+                        <p>Everyting was uptodate,Perfect, homely feeling</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+
+            <div class="slider">
+                <div class="box">
+                        <img src="/home/spg/Desktop/Travel/images (3).jpeg" alt="">
+                        <h3>Babita</h3>
+                        <p>Everyting was uptodate,Perfect, homely feeling</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            
+                        </div>
+                    </div>
+                </div> 
+
+        <div class="slider">
+            <div class="box">
+            
+                    <img src="/home/spg/Desktop/Travel/305697937.jpg" alt="">
+                    <h3>Ram</h3>
+                    <p>Everyting was uptodate,Perfect, homely feeling</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider">
+                <div class="box">
+                
+                        <img src="/home/spg/Desktop/Travel/images (4).jpeg" alt="">
+                        <h3>Kanha</h3>
+                        <p>Everyting was uptodate,Perfect, homely feeling</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="/home/spg/Desktop/Travel/77520.png" alt="">
+
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Send Message" >
+        </form>
+    </div>
+</section>
+
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>About us</h3>
+                    <p>We help everyone in getting <br>home liking feeling. <br>
+                    Making there trip better</p>
+                </div>
+                <div class="box">
+                    <h3>Branch Locations</h3>
+                    <a href="#">India</a><br>
+                    <a href="#">USA</a><br>
+                    <a href="#">Japan</a><br>
+                    <a href="#">France</a>
+                    
+                </div>
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="#">Home</a><br>
+                    <a href="#">Book</a><br>
+                    <a href="#">Packages</a><br>
+                    <a href="#">Services</a><br>
+                    <a href="#">Gallery</a><br>
+                    <a href="#">Review</a><br>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div class="box">
+                    <h3>Follow Us</h3>
+                    <a href="#">facebook</a><br>
+                    <a href="#">Instagram</a><br>
+                    <a href="#">Twitter</a><br>
+                    <a href="#">Linkedin</a>
+                    
+                </div>
+            </div>
+            <h1 class="credit">Created By <span>Shruti P Gupta</span> <br>All rights reserved</h1>
+        </section>
+
+
+
+    <script src="script.js"></script>
+</body>
