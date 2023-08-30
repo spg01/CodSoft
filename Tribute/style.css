@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,200;1,300&display=swap');
+
+*
+{
+    margin: 0;
+    padding:0;
+    background-color: #faf8fa;
+}
+.py-4
+{
+    font-size: 20px;
+}
+.col-md-6
+{
+    font-size: 20px;
+} 
+body{
+    font-family: "Poppins", sans-serif !important;
+    background-color: #dbb0d4;
+}
+.promo-title
+{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.btn-primary
+{
+    box-shadow: none !important;
+    padding:8px 25px;
+    border-radius: 2px !important;
+    border:2px solid #501be0 !important;
+    color:#e04d4d !important;
+    background: rgb(162, 224, 224);
+}
+.btn-primary:hover{
+    background: #bfc790 !important;
+    color:#fff !important;
+    border: 2px solid #fff !important;
+}
+#life
+{
+    padding:40px 0;
+    color:#3c366b;
+}
+.title::before{
+    content:"";
+    background:#3c366b;
+    height: 10px;
+    width:150px;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    border-radius: 50px;
+    transform:translate(4px)
+}
+ul{
+    list-style-type: none;
+    font-weight: lighter;
+}
+ul li{
+    padding:3px;
+    font-weight: 300;
+    color:black;
+
+}
